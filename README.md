@@ -12,7 +12,7 @@ Calibrates all ABLM2 instances in a project to match two instances IDs on a trac
 ### MReaPy_ABLM_PDC.py
 Calibrates all ABLM2 instances of a project by calculating and applying each FX chain plugin delay compensation (PDC) between two ABLM2 instances.
 
-### MReaPy-ABLM_Calibrate.py
+### MReaPy_ABLM_Calibrate.py
 Triggers both ID and PDC calibration for all ABLM2 instances in the project.
 
 ### MReapy_ABLM_Insert.py 
