@@ -12,22 +12,22 @@ Calibrates all ABLM2 instances in a project to match two instances IDs on a trac
 ### MReaPy_ABLM_PDC.py
 Calibrates all ABLM2 instances of a project by calculating and applying each FX chain plugin delay compensation (PDC) between two ABLM2 instances.
 
-###### MReaPy-ABLM_Calibrate.py
+### MReaPy-ABLM_Calibrate.py
 Triggers both ID and PDC calibration for all ABLM2 instances in the project.
 
-###### MReapy_ABLM_Insert.py 
+### MReapy_ABLM_Insert.py 
 Automatically inserts two ABLM2 instances before and after the track's FX chain, if any. No calibration performed. 
 
-###### MReaPy_ABLM_InsertAndCalibrate.py
+### MReaPy_ABLM_InsertAndCalibrate.py
 The combination of ABLM_Insert and ABLM_Calibrate. Automatically inserts two ABLM2 instances before and after the track's FX chain, if any. Then calibrates all ABLM2 instances in the project (both ID and PDC).
 
 
 # Installation 
-###### Requirements
+### Requirements
 - Python 3.9<
 - Reaper [SWS/S&M Extension](https://www.sws-extension.org/) 
 
-###### Download 
+### Download 
 Download all scripts from this repository and put them in the same folder. 
 
 >sws_python.py and sws_pythoncommands.py are mandatory references that should always be in the same folder of my scripts. The sws_python.py script is the main reference for the Reaper API in order to work, sws_pythoncommands.py are handy functions I wrote for tedious tasks and are referenced in all my scripts (feel free to check them and use them for your own).
