@@ -1,5 +1,4 @@
 from sws_python import *
-from colors import *
 from datetime import datetime
 
 def mine_track_find_loudness():
