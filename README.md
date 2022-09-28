@@ -5,6 +5,9 @@ Python action script for Reaper. One-click insert and calibration of all ABLM2 i
 These are 5 action scripts you can use to make the ABLM2 plugin of TBProAudio more comfortable to use. 
 You may just want to use the "MReaPy_ABLM_InsertAndCalibrate.py" action script, which uses all the other available action scripts and automatically adds two ABLM2 instances before and after your plugin chain, fully calibrated and ready to use. 
 
+![general use](ablm.gif)
+![compatibility with ABLM2](ablm2.gif)
+
 # Use
 ### MReaPy_ABLM_ID.py
 Calibrates all ABLM2 instances in a project to match two instances IDs on a track at a time, which is expected to be the main use case. 
